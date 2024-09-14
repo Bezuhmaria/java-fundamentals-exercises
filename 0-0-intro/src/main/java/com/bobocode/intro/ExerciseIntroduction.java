@@ -27,15 +27,7 @@ public class ExerciseIntroduction {
     }
 
     /**
-     * Method encodeMessage accepts one {@link String} parameter and returns encoded {@link String}.
-     * <p>
-     * PLEASE NOTE THAT YOU WILL GET STUCK ON THIS METHOD INTENTIONALLY! ;)
-     * <p>
-     * Every exercise has a completed solution that is stored in the branch "completed". So in case you got stuck
-     * and don't know what to do, go check out completed solution.
      *
-     * @param message input message
-     * @return encoded message
      */
     public String encodeMessage(String message) {
         return Base64.getEncoder().encodeToString(message.getBytes());
